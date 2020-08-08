@@ -21,6 +21,7 @@ public class TopicosController {
     public List<Topico> list(){
         List<Topico> topicos = topicoRepository.findAll();
         return topicos;
+        //testandooooooo
     }
 
 }

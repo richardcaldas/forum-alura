@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/topicos")
-public class TopicosController {
+public class TopicoController {
 
     @Autowired
     private TopicoRepository topicoRepository;
